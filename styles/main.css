@@ -66,14 +66,10 @@ body>main {
   background-color: #2d5cbb;
 }
 
-body>footer {
-  grid-area: foot;
-}
 
-body>main img {
-  max-width: 100%;
-}
+
+
 
 body>*>h1:first-child {
-  line-height: 1;
+  line-height: 0.5;
 }
