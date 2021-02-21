@@ -1,11 +1,4 @@
-:root {
-  --white-color: 4, 90, 191;
-  --dark-color: #e0e1e4;
-  --bright-color: #0442BF;
 
-  --muted-color: #033E8C;
-
-}
 
 
 
@@ -66,10 +59,3 @@ body>main {
   background-color: #2d5cbb;
 }
 
-
-
-
-
-body>*>h1:first-child {
-  line-height: 0.5;
-}
