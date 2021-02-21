@@ -45,11 +45,13 @@ body>header {
 
 body>nav {
   grid-area: nav;
+
+
 }
 
 body>nav ul {
   margin-top: 0;
-  padding-left: 1.5em;
+  padding-left: 1.6em;
   list-style-type: "x";
   color: white;
 }
