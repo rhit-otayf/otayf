@@ -44,7 +44,7 @@ body>nav {
 
 body>nav ul {
   margin-top: 0;
-  padding-left: 1.6em;
+  padding-left: 2.5em;
   list-style-type: "x";
   color: white;
 }
@@ -55,7 +55,7 @@ body>nav ul li {
 
 body>main {
   grid-area: main;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
   background-color: #2d5cbb;
 }
 
