@@ -1,0 +1,77 @@
+:root {
+  --white-color: 4, 90, 191;
+  --dark-color: #e0e1e4;
+  --bright-color: #0442BF;
+
+  --muted-color: #033E8C;
+
+}
+
+
+
+body {
+  line-height: 1.8;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+#hel {
+  color: rgb(114, 135, 202)
+}
+
+#hello {
+  color: white;
+}
+
+
+
+body {
+  display: grid;
+  grid-template-columns: 15em 1fr;
+  grid-template-rows: auto 1fr auto;
+  gap: 0px 0px;
+  grid-template-areas:
+    "head main"
+    "nav main"
+    "nav foot";
+  background-image: radial-gradient(circle at center center, transparent, rgb(33, 33, 33)), repeating-linear-gradient(135deg, rgb(33, 33, 33) 0px, rgb(33, 33, 33) 2px, transparent 2px, transparent 10px, rgb(33, 33, 33) 10px, rgb(33, 33, 33) 11px, transparent 11px, transparent 21px), repeating-linear-gradient(45deg, rgb(47, 47, 47) 0px, rgb(47, 47, 47) 4px, transparent 4px, transparent 8px), linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+  margin: 0;
+  padding: 1.5rem;
+}
+
+body>header {
+  grid-area: head;
+}
+
+body>nav {
+  grid-area: nav;
+}
+
+body>nav ul {
+  margin-top: 0;
+  padding-left: 1.5em;
+  list-style-type: "x";
+  color: white;
+}
+
+body>nav ul li {
+  padding-left: 0.5em;
+}
+
+body>main {
+  grid-area: main;
+  padding: 0 1rem;
+  background-color: #2d5cbb;
+}
+
+body>footer {
+  grid-area: foot;
+}
+
+body>main img {
+  max-width: 100%;
+}
+
+body>*>h1:first-child {
+  line-height: 1;
+}
